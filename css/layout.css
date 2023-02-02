@@ -1,0 +1,35 @@
+.container {
+  width: 100%;
+}
+
+.row {
+  display: flex;
+}
+
+.off,
+.desktop {
+  display: none;
+}
+
+.column-full-mobile {
+  flex-basis: 100%;
+}
+
+.column-half-mobile {
+  flex-basis: 50%;
+}
+
+/* Desktop */
+@media screen and (min-width: 756px) {
+  .container {
+    width: 100%;
+  }
+
+  .mobile {
+    display: none;
+  }
+
+  .desktop {
+    display: block;
+  }
+}
