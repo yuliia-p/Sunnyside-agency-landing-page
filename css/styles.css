@@ -49,21 +49,22 @@ a {
   font-size: 1.1rem;
 }
 
-.row-4-mobile {
+.column-design {
   height: 600px;
   background-image: url("../images/mobile/image-graphic-design.jpg");
   background-size: 100%;
 }
 
+/*
 .margin-b-mobile {
   margin-bottom: 7rem;
+} */
+
+.margin-mobile {
+  margin-top: 20rem;
 }
 
-.margin-top-mobile {
-  margin-top: 10rem;
-}
-
-.row-5-mobile {
+.column-photography {
   height: 600px;
   background-image: url("../images/mobile/image-photography.jpg");
   background-size: 100%;
@@ -127,7 +128,9 @@ div.row-nowrap img {
 
 /* Desktop */
 
-/* @media screen and (min-width: 756px) {
-} */
-
-/* } */
+@media screen and (min-width: 756px) {
+  .row-4-mobile {
+    background-image: none;
+    height: auto;
+  }
+}
