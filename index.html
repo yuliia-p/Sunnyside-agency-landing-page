@@ -3,18 +3,191 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AJAX Project</title>
-  <link rel="icon" href="images/favicon.ico">
-  <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/layout.css">
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./css/layout.css">
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="./css/reset.css">
+  <title>Sunnyside agency landing page</title>
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
 </head>
 <body>
-  <header>
-  </header>
-  <main>
-  </main>
-  <script src="js/data.js"></script>
-  <script src="js/main.js"></script>
+  <div class="container">
+    <div class="row row-1">
+      <div class="column-full-desktop column-full-mobile">
+        <div class="row menu-desktop desktop">
+          <div class="column-half-desktop">
+            <img src="./images/logo.svg" alt="logo">
+          </div>
+          <div class="column-half-desktop">
+            <div class="buttons-holder">
+              <button>About</button>
+              <button>Services</button>
+              <button>Projects</button>
+              <button>Contact</button>
+            </div>
+          </div>
+        </div>
+        <div class="row menu-mobile mobile">
+          <div class="column-half-mobile">
+            <img src="./images/logo.svg" alt="logo">
+          </div>
+          <div class="column-half-mobile">
+            <div class="menu-bars" style="text-align: end;">
+              <i style="color: white; font-size: 1.7rem;" id="menu-icon" class="fa fa-ligth fa-bars"></i>
+            </div>
+          </div>
+          <div class="menu-div-mobile off">
+            <div class="menu-content">
+              <div class="buttons-holder">
+                <button>About</button>
+                <button>Services</button>
+                <button>Projects</button>
+                <button>Contact</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <h1
+        style="font-weight: 900;
+        font-size: 2.75rem;
+        text-transform: uppercase;
+        letter-spacing: 0.4rem;
+        margin: 3.5rem 0;">We are creatives</h1>
+        <img class="arrow" src="./images/icon-arrow-down.svg" alt="arrow">
+      </div>
+    </div>
+    <div class="row row-2">
+      <div class="column-half-desktop column-full-mobile">
+        <img class="mobile" style="width: 100%;" src="./images/mobile/image-transform.jpg" alt="egg-img">
+      </div>
+      <div class="column-half-desktop column-full-mobile">
+        <div class="text-holder">
+          <h1>Transform your brand</h1>
+          <p>We are a full-service creative agency specializing in helping brands grow fast.
+          Engage your clients through compelling visuals that do most of the marketing for you.</p>
+          <button>Learn more</button>
+        </div>
+      </div>
+    </div>
+    <div class="row row-3">
+      <div class="column-half-desktop column-full-mobile">
+        <img class="mobile" style="width: 100%;" src="./images/mobile/image-stand-out.jpg" alt="glass-img">
+      </div>
+      <div class="column-half-desktop column-full-mobile">
+        <div class="text-holder">
+          <h1>Stand out to the right audience</h1>
+          <p>Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and
+          extend your brand in digital places.</p>
+          <button>Learn more</button>
+        </div>
+      </div>
+    </div>
+    <div class="row row-4 row-4-mobile">
+      <div class="column-half-desktop column-full-mobile margin-b-mobile">
+        <img class="desktop" style="width: 100%;" src="./images/mobile/image-graphic-design.jpg" alt="cherry-img">
+      </div>
+      <div class="column-half-desktop column-full-mobile margin-top-mobile">
+        <div style="color:hsl(167, 40%, 24%)" class="text-holder">
+          <h1>Graphic design</h1>
+          <p style="color:hsl(167, 40%, 24%)">Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential
+            clients’
+            attention.</p>
+        </div>
+      </div>
+    </div>
+    <div class="row row-5 row-5-mobile">
+      <div class="column-half-desktop column-full-mobile margin-b-mobile">
+        <img class="desktop" style="width: 100%;" src="./images/mobile/" alt="cherry-img">
+      </div>
+      <div class="column-half-desktop column-full-mobile margin-top-mobile">
+        <div style="color:hsl(198, 62%, 26%)" class="text-holder">
+          <h1>Photography</h1>
+          <p style="color:hsl(198, 62%, 26%)">Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
+        </div>
+      </div>
+    </div>
+    <div class="row row-6">
+      <div class="column-full-desktop column-full-mobile">
+        <h1 class="h1-row-6" style="color: hsl(210, 4%, 67%);
+        font-size: 1rem;
+        text-transform: uppercase;
+        letter-spacing: 0.3rem;
+        font-weight: 900;">Client testimonials</h1>
+      </div>
+      <div class="column-third-desktop column-full-mobile">
+        <div class="review-div">
+          <img src="./images/image-emily.jpg" alt="profile-pic">
+          <p>We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.
+          </p>
+          <p class="client-name">Emily R.</p>
+          <p class="client-position">Marketing Director</p>
+        </div>
+      </div>
+      <div class="column-third-desktop column-full-mobile">
+        <div class="review-div">
+          <img src="./images/image-thomas.jpg" alt="profile-pic">
+          <p>Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable
+            experience.</p>
+          <p class="client-name">Thomas S.</p>
+          <p class="client-position">Chief Operating Officer</p>
+        </div>
+      </div>
+      <div class="column-third-desktop column-full-mobile">
+        <div class="review-div">
+          <img src="./images/image-jennie.jpg" alt="profile-pic">
+          <p>Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</p>
+          <p class="client-name">Jennie F.</p>
+          <p class="client-position">Business Owner</p>
+        </div>
+      </div>
+    </div>
+    <div class="row row-7">
+      <div class="column-fourth-desktop column-half-mobile">
+        <img src="./images/mobile/image-gallery-milkbottles.jpg" alt="milkbottles-image">
+      </div>
+      <div class="column-fourth-desktop column-half-mobile">
+        <img src="./images/mobile/image-gallery-orange.jpg" alt="orange-image">
+      </div>
+      <div class="column-fourth-desktop column-half-mobile">
+        <img src="./images/mobile/image-gallery-cone.jpg" alt="icecream-cone-image">
+      </div>
+      <div class="column-fourth-desktop column-half-mobile">
+        <img src="./images/mobile/image-gallery-sugar-cubes.jpg" alt="sugar-cubes-image">
+      </div>
+    </div>
+    <div class="row row-8 footer">
+      <div class="column-full-desktop column-full-mobile logo-footer">
+        <img src="./images/logo.svg" alt="logo">
+        <div class="row-nowrap">
+          <a href="">About</a>
+          <a href="">Services</a>
+          <a href="">Projects</a>
+        </div>
+        <div class="row-nowrap">
+          <img src="./images/icon-facebook.svg" alt="facebook">
+          <img src="./images/icon-instagram.svg" alt="instagram">
+          <img src="./images/icon-twitter.svg" alt="twitter">
+          <img src="./images/icon-pinterest.svg" alt="pinterest">
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+  Contact
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+  <script src="./js/main.js"></script>
 </body>
 </html>

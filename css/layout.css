@@ -1,0 +1,46 @@
+.container {
+  width: 100%;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.off,
+.desktop {
+  display: none;
+}
+
+.column-full-mobile {
+  flex-basis: 100%;
+}
+
+.column-half-mobile {
+  flex-basis: 50%;
+}
+
+div.menu-mobile {
+  align-items: baseline;
+}
+
+.row-nowrap {
+  display: flex;
+  justify-content: center;
+  margin: 3rem 0;
+}
+
+/* Desktop */
+@media screen and (min-width: 756px) {
+  .container {
+    width: 100%;
+  }
+
+  .mobile {
+    display: none;
+  }
+
+  .desktop {
+    display: block;
+  }
+}
