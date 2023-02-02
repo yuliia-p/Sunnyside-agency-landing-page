@@ -19,6 +19,10 @@
   flex-basis: 50%;
 }
 
+div.menu-mobile {
+  align-items: baseline;
+}
+
 /* Desktop */
 @media screen and (min-width: 756px) {
   .container {
