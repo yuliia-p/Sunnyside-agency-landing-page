@@ -133,4 +133,22 @@ div.row-nowrap img {
     background-image: none;
     height: auto;
   }
+
+  .menu-desktop {
+    padding: 2rem;
+  }
+
+  .logo {
+    width: 25%;
+  }
+
+  div.logo-footer img {
+    width: 10%;
+  }
+
+  .row-1 {
+    background-image: url("../images/desktop/image-header.jpg");
+    height: 689px;
+    background-position-y: 100%;
+  }
 }
