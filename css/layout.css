@@ -30,17 +30,45 @@ div.menu-mobile {
   margin: 3rem 0;
 }
 
+.desktop {
+  display: none;
+}
+
 /* Desktop */
 @media screen and (min-width: 756px) {
   .container {
     width: 100%;
   }
 
-  .mobile {
-    display: none;
-  }
-
   .desktop {
     display: block;
+  }
+
+  .column-full-desktop {
+    flex-basis: 100%;
+  }
+
+  .column-third-desktop {
+    flex-basis: calc(100% /3);
+  }
+
+  .column-half-desktop {
+    flex-basis: 50%;
+  }
+
+  .column-fourth-desktop {
+    flex-basis: 25%;
+  }
+
+  .row-reverse {
+    flex-direction: row-reverse;
+  }
+
+  .row {
+    display: flex;
+  }
+
+  .mobile {
+    display: none;
   }
 }
