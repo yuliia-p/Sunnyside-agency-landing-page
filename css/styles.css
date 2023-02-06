@@ -56,11 +56,6 @@ a {
   background-size: 100%;
 }
 
-/*
-.margin-b-mobile {
-  margin-bottom: 7rem;
-} */
-
 .margin-mobile {
   margin-top: 20rem;
 }
@@ -126,7 +121,7 @@ button {
 
 /* Desktop */
 
-@media screen and (min-width: 756px) {
+@media screen and (min-width: 1000px) {
   .row-4-mobile {
     background-image: none;
     height: auto;
@@ -169,5 +164,9 @@ button {
 
   div.menu-buttons button {
     margin-left: 1rem;
+  }
+
+  div.row-nowrap img {
+    width: 25px;
   }
 }
