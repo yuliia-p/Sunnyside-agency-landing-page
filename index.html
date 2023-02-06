@@ -10,8 +10,8 @@
   <link rel="stylesheet" href="./css/reset.css">
   <title>Sunnyside agency landing page</title>
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution { font-size: 13px; text-align: center; color:hsl(167, 40%, 24%); font-family: Fraunces, serif;}
+    .attribution a { color: hsl(228, 45%, 44%); font-family: Fraunces, serif;}
   </style>
 </head>
 <body>
@@ -23,11 +23,11 @@
             <img class="logo" src="./images/logo.svg" alt="logo">
           </div>
           <div style="text-align: right;" class="column-half-desktop">
-            <div class="buttons-holder">
-              <button>About</button>
-              <button>Services</button>
-              <button>Projects</button>
-              <button>Contact</button>
+            <div class="buttons-holder menu-buttons">
+              <a style="color: white">About</a>
+              <a style="color: white">Services</a>
+              <a style="color: white">Projects</a>
+              <button class="contact-b">Contact</button>
             </div>
           </div>
         </div>
@@ -60,7 +60,7 @@
         <img class="arrow" src="./images/icon-arrow-down.svg" alt="arrow">
       </div>
     </div>
-    <div class="row row-2">
+    <div class="row row-2 row-reverse">
       <div class="column-half-desktop column-full-mobile">
         <img class="desktop" style="width: 100%;" src="./images/desktop/image-transform.jpg" alt="egg-img">
         <img class="mobile" style="width: 100%;" src="./images/mobile/image-transform.jpg" alt="egg-img">
@@ -74,7 +74,7 @@
         </div>
       </div>
     </div>
-    <div class="row row-3 row-reverse">
+    <div class="row row-3">
       <div class="column-half-desktop column-full-mobile">
         <img class="desktop" style="width: 100%;" src="./images/desktop/image-stand-out.jpg" alt="glass-img">
         <img class="mobile" style="width: 100%;" src="./images/mobile/image-stand-out.jpg" alt="glass-img">
@@ -90,8 +90,8 @@
     </div>
     <div class="row row-4 row-4-mobile">
       <div class="column-half-desktop column-full-mobile column-design">
-        <img class="desktop" src="./images/desktop/image-graphic-design.jpg" alt="cherry-img">
-        <div style="color:hsl(167, 40%, 24%)" class="text-holder margin-mobile">
+        <!-- <img class="desktop" src="./images/desktop/image-graphic-design.jpg" alt="cherry-img"> -->
+        <div style="color:hsl(167, 40%, 24%)" class="text-holder text-holder-no-margin margin-mobile">
           <h1>Graphic design</h1>
           <p style="color:hsl(167, 40%, 24%)">Great design makes you memorable. We deliver artwork that underscores your brand
             message and captures potential
@@ -100,8 +100,8 @@
         </div>
       </div>
       <div class="column-half-desktop column-full-mobile  column-photography">
-        <img class="desktop" style="width: 100%;" src="./images/desktop/image-photography.jpg" alt="cherry-img">
-        <div style="color:hsl(198, 62%, 26%)" class="text-holder margin-mobile">
+        <!-- <img class="desktop" style="width: 100%;" src="./images/desktop/image-photography.jpg" alt="cherry-img"> -->
+        <div style="color:hsl(198, 62%, 26%)" class="text-holder text-holder-no-margin margin-mobile">
           <h1>Photography</h1>
           <p style="color:hsl(198, 62%, 26%)">Increase your credibility by getting the most stunning, high-quality photos that
             improve your business image.</p>
@@ -176,17 +176,8 @@
       </div>
     </div>
   </div>
-
-
-
-
-
-
-  Contact
-
   <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by<a href="https://github.com/yuliia-p">Yuliia Pchelintseva.</a>
   </div>
   <script src="./js/main.js"></script>
 </body>

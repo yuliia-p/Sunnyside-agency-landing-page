@@ -35,7 +35,7 @@ div.menu-mobile {
 }
 
 /* Desktop */
-@media screen and (min-width: 756px) {
+@media screen and (min-width: 1000px) {
   .container {
     width: 100%;
   }
